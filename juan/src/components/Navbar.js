@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header title="Juan Alberto Pimentel JR" scroll>
+          <Header title="Juan Alberto Pimentel JR" scroll className='Navy'>
             <Navigation>
               <Link to="/" className="nav-link">
                 About Me
@@ -25,7 +25,7 @@ export default class Navbar extends Component {
             </Navigation>
           </Header>
           <Drawer className='sideBar'>
-            <img className="me" alt='sexy me' src={Juanito} />
+            <img className="me meNav" alt='sexy me' src={Juanito} />
             <h1>Juan Alberto Pimentel JR</h1>
             <Navigation>
               <Link to="/" className="nav-link">

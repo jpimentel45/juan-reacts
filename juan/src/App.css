@@ -1,3 +1,7 @@
+
+body{
+ background: azure;
+}
 .App {
   text-align: center;
 }
@@ -31,9 +35,28 @@
     transform: rotate(360deg);
   }
 }
-
+.Navy{
+    background: lavenderblush;
+     /* background: radial-gradient(red, lavenderblush); */
+}
+.mdl-layout__drawer-button {
+ color: mediumslateblue;
+}
+.mdl-layout__header-row > * {
+ 
+    color: black;
+}
+.mdl-layout__header-row .mdl-navigation__link {
+  color: black;
+}
+.mdl-layout__drawer.is-visible {
+    background: azure;
+}
 .navbar {
   flex-wrap: unset !important;
+}
+.meNav{
+      width: 72% !important;
 }
 
 .navbar-nav {
@@ -53,11 +76,12 @@
                                             About ME Section 
  ************************************************************************************************/
 .me {
-      border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin: 20px auto;
 }
 .bio{
       text-align: center;
